@@ -3,6 +3,6 @@ include:
     shield: lily58_left
     extra_cmake_args:
       -DCONFIG_CUSTOM_LINKER_SCRIPT=y
-      -DCONFIG_FLASH_BASE_ADDRESS=0x26000
+#      -DCONFIG_FLASH_BASE_ADDRESS=0x26000
       -DCONFIG_NORDIC_QSPI_NOR=n
       -DCONFIG_BOOTLOADER_MCUBOOT=n
