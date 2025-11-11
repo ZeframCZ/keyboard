@@ -21,3 +21,17 @@
 include:
   - board: nice_nano # Replace with the Pro Micro-compatible board you're using
     shield: tester_pro_micro
+steps:
+  - name: Checkout ZMK Config
+    uses: actions/checkout@v3
+
+  - name: Build ZMK Firmware
+    uses: zmkfirmware/zmk@main
+    with:
+      board: ${{ matrix.board }}
+      shield: ${{ matrix.shield }}
+      extra_cmake_args: >
+        -DCONFIG_CUSTOM_LINKER_SCRIPT=y
+        -DCONFIG_FLASH_BASE_ADDRESS=0x26000
+        -DCONFIG_NORDIC_QSPI_NOR=n
+        -DCONFIG_BOOTLOADER_MCUBOOT=n
