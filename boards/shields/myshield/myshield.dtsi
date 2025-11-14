@@ -4,7 +4,7 @@
     myshield_layout: keymap_layout {
         compatible = "zmk,physical-layout";
         display-name = "MyShield Layout";
-        transform = <&default_transform>; // <--- add this line
+        transform = <&matrix_transform>; // <--- add this line
     };
 
     chosen {
