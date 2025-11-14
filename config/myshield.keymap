@@ -8,7 +8,7 @@
 
         layer_0 {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &kp SEMICOLON  &trans  &trans  &trans  &trans  &trans  &kp TAB  &trans  &trans  &kp D  &kp S  &kp F  &kp CAPSLOCK  &kp A  &kp G  &trans  &trans  &trans  &kp LEFT_SHIFT  &trans  &trans  &kp SYSREQ  &bt BT_NXT  &kp LCTRL  &kp LEFT_ALT  &trans  &trans
+&kp ESCAPE  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_4  &kp SEMICOLON  &kp NUMBER_1  &kp N5  &kp E  &kp W  &kp R  &kp TAB  &kp Q  &kp T  &kp D  &kp S  &kp F  &kp CAPSLOCK  &kp A  &kp G  &kp C  &kp X  &kp V  &kp LEFT_SHIFT  &kp Z  &kp B  &kp SYSREQ  &bt BT_NXT  &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &kp BACKSPACE
             >;
         };
     };
