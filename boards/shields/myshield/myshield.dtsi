@@ -46,7 +46,7 @@
 
             // Row 5
             RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(NO,NO) RC(NO,NO) RC(NO,NO)
-            RC(NO,NO) RC(NO,NO) RC(5,7) RC(5,8) RC(5,9) RC(5,10) RC(NO,NO) RC(NO,NO)
+            RC(NO,NO) RC(NO,NO) RC(5,10) RC(5,11) RC(5,12) RC(5,13) RC(NO,NO) RC(NO,NO)
 
             // Row 6
             RC(NO,NO) RC(NO,NO) RC(NO,NO) RC(NO,NO) RC(NO,NO) RC(NO,NO) RC(NO,NO) RC(6,7)
