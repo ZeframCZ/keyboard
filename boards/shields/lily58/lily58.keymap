@@ -1,14 +1,28 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
     keymap {
         compatible = "zmk,keymap";
 
-        layer_0 {
+        default_layer {
+            label = "Default (QWERTY)";
+
             bindings = <
-&kp ESCAPE  &kp NUMBER_3  &kp NUMBER_2  &kp NUMBER_4  &kp SEMICOLON  &kp NUMBER_1  &kp N5  &kp E  &kp W  &kp R  &kp TAB  &kp Q  &kp T  &kp D  &kp S  &kp F  &kp CAPSLOCK  &kp A  &kp G  &kp C  &kp X  &kp V  &kp LEFT_SHIFT  &kp Z  &kp B  &kp SYSREQ  &bt BT_NXT  &kp LCTRL  &kp LEFT_ALT  &kp SPACE  &kp BACKSPACE
+                &kp Q    &kp W    &kp E    &kp R    &kp T
+                &kp Y    &kp U    &kp I    &kp O    &kp P
+                &kp A    &kp S    &kp D    &kp F    &kp G
+                &kp H    &kp J    &kp K    &kp L    &kp SEMI
+                &kp Z    &kp X    &kp C    &kp V    &kp B
+                &kp N    &kp M    &kp COMMA &kp DOT  &kp SLASH
+
+                // Thumb cluster (left half)
+                &kp ESC  &kp TAB  &kp LGUI &kp LALT &kp BSPC
+                &kp ENTER &kp SPACE &kp LCTRL &kp RALT &kp RGUI
+
+                // Thumb cluster (right half – mirrored)
+                &kp ESC  &kp TAB  &kp RGUI &kp RALT &kp BSPC
+                &kp ENTER &kp SPACE &kp RCTRL &kp LALT &kp LGUI
             >;
         };
     };
