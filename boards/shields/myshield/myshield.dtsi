@@ -3,14 +3,14 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 // #include <layouts/ZeframCZ/myshield.dtsi>
-ZeframCZ_myshield_layout: keymap_layout {
+myshield_layout: keymap_layout {
     compatible = "zmk,physical-layout";
 };
 / {
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &ZeframCZ_myshield_layout;
+        zmk,physical-layout = &myshield_layout;
     };
 
     default_transform: keymap_transform_0 {
@@ -60,7 +60,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
     };
 };
 
-&ZeframCZ_myshield_layout {
+&myshield_layout {
     transform = <&default_transform>;
 };
 
