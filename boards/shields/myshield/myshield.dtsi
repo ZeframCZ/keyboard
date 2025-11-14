@@ -1,5 +1,5 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-
+#include "myshield-layouts.dtsi"
 / {
     myshield_layout: keymap_layout {
         compatible = "zmk,physical-layout";
@@ -13,28 +13,14 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-        label = "KSCAN";
+        diode-direction = "col2row";
+        wakeup-source;
         
         // This node is intentionally left empty.
         // It will be populated by your myshield_left.overlay 
         // and myshield_right.overlay files.
     };
 
-    // This transform defines the bridge between your physical 8x16 matrix
-    // and your 56-key (28 per side) logical layout.
-    //
-    // - `rows = <8>;` and `columns = <16>;` MUST match your physical matrix.
-    //   (8 rows from your overlay, 16 columns total for a split)
-    //
-    // - The `map` defines 56 logical keys.
-    // - Keys 0-27 are on the left (physical columns 0-7).
-    // - Keys 28-55 are on the right (physical columns 8-15).
-    //
-    // YOU MUST:
-    // Change the RC(row, col) values below to match your *actual* wiring.
-    // For example, if your 'Q' key (logical position RC(0,1)) is physically
-    // wired to row 5, col 2, you would change RC(0,1) to RC(5,2).
-    //
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>; // 8 cols left + 8 cols right
@@ -59,6 +45,4 @@
     };
 };
 
-&myshield_layout {
-    transform = <&default_transform>;
-};
+
