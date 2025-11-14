@@ -1,5 +1,0 @@
-/* memory.x for nRF52840 + S140 v6.1.1 */
-MEMORY
-{
-  FLASH : ORIGIN = 0x00027000, LENGTH = 824K
-}
