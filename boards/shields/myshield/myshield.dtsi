@@ -2,13 +2,13 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/kata0510/myshield.dtsi>
+#include <layouts/ZeframCZ/myshield.dtsi>
 
 / {
     chosen {
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &kata0510_myshield_layout;
+        zmk,physical-layout = &ZeframCZ_myshield_layout;
     };
 
     default_transform: keymap_transform_0 {
@@ -58,7 +58,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
     };
 };
 
-&kata0510_myshield_layout {
+&ZeframCZ_myshield_layout {
     transform = <&default_transform>;
 };
 
