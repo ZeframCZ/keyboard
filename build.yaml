@@ -3,4 +3,5 @@ include:
     shield: myshield_left
   - board: nice_nano_v2
     shield: myshield_right
-    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    cmake-args: -DCMAKE_BUILD_TYPE=MinSizeRel
+
