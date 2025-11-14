@@ -3,7 +3,9 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 // #include <layouts/ZeframCZ/myshield.dtsi>
-
+ZeframCZ_myshield_layout: keymap_layout {
+    compatible = "zmk,physical-layout";
+};
 / {
     chosen {
         zephyr,display = &oled;
