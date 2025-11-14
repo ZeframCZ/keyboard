@@ -1,8 +1,6 @@
-# Copyright (c) 2020 Pete Johanson
-# SPDX-License-Identifier: MIT
 
-config SHIELD_LILY58_LEFT
-    def_bool $(shields_list_contains,lily58_left)
+config SHIELD_MYSHIELD_LEFT
+    def_bool $(shields_list_contains,myshield_left)
 
-config SHIELD_LILY58_RIGHT
-    def_bool $(shields_list_contains,lily58_right)
+config SHIELD_MYSHIELD_RIGHT
+    def_bool $(shields_list_contains,myshield_right)
