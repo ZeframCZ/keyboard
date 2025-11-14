@@ -2,7 +2,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/ZeframCZ/myshield.dtsi>
+// #include <layouts/ZeframCZ/myshield.dtsi>
 
 / {
     chosen {
