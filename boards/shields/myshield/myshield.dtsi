@@ -13,7 +13,12 @@
         zmk,kscan = &kscan0;
         zmk,physical-layout = &myshield_layout;
     };
-
+    kscan0: kscan {  // <--- DEFINE kscan0 HERE
+            compatible = "zmk,kscan-gpio-matrix";
+            label = "KSCAN";
+    
+            // Will be filled in by left/right overlays
+    };
     default_transform: keymap_transform_0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
