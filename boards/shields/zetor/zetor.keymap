@@ -21,8 +21,8 @@
 &kp CAPS       &kp A    &kp S     &kp D  &kp F  &kp G       &kp H  &kp J  &kp K  &kp L  &kp P  &kp V &kp P
 &kp LSHFT      &kp Z    &kp X     &kp C  &kp V  &kp B       &kp N  &kp M  &kp K  &kp L  &kp P  &kp V
 &kp LCTRL      &kp LGUI &kp LALT  &kp SPACE                             &kp P &kp P &kp P &kp P
-                            &kp BSPC                        &kp BSPC
-                            &kp SPACE                       &kp SPACE
+                                   &kp BSPC &kp BSPC        &kp BSPC  &kp BSPC
+                                   &kp SPACE &kp SPACE      &kp SPACE &kp BSPC
             >;
         };
     };
