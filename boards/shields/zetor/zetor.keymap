@@ -11,7 +11,6 @@
 
 / {
     keymap {
-
         compatible = "zmk,keymap";
 
         default_layer {
@@ -23,11 +22,11 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
 //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
             bindings = <
-&kp A &kp B &kp C &kp D &kp E &studio_unlock                    &kp G &kp Q &kp W &kp R &kp T &kp V
-&kp A &kp B &kp C &kp D &kp E &studio_unlock                    &kp G &kp Q &kp W &kp R &kp T &kp V
-&kp A &kp B &kp C &kp D &kp E &studio_unlock                    &kp G &kp Q &kp W &kp R &kp T &kp V
-&kp A &kp B &kp C &kp D &kp E &kp F &kp X  &kp X &kp X &kp X &kp X &kp X &kp X &kp X
-                        &kp E &kp F &kp X  &kp X &kp X &kp X &kp X &kp X
+&kp A &kp N1 &kp N2 &kp N3 &kp N4 &kp N5                    &kp G &kp Q &kp W &kp R &kp T &kp V
+&kp A &kp Q &kp W &kp E &kp R &kp T                    &kp G &kp Q &kp W &kp R &kp T &kp V
+&kp A &kp A &kp S &kp D &kp F &kp G                    &kp G &kp Q &kp W &kp R &kp T &kp V
+&kp A &kp Z &kp X &kp C &kp V &kp B                    &kp X &kp X &kp X &kp X &kp X
+&kp A &kp N1 &kp N2 &kp N3    &kp F &kp X  &kp X &kp X &kp X &kp X &kp X
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
