@@ -15,8 +15,6 @@
             kscan = <&kscan2>;
             row-offset = <7>; // ...and shift it to not overlap
         };
-        kscan0 = <&kscan_primary>;
-        kscan1 = <&kscan_secondary>;
     };
 
     chosen {
