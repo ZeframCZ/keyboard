@@ -4,13 +4,23 @@
 #include "zetor_layouts.dtsi"
 
 / {
-    kscan_composite: kscan_composite {
+    kscan0: kscan_composite {
         compatible = "zmk,kscan-composite";
+        columns = <14>;
+        rows = <8>;
+        matrix {
+            kscan = <&kscan1>;
+        };
+        direct {
+            kscan = <&kscan2>;
+            row-offset = <7>; // ...and shift it to not overlap
+        };
         kscan0 = <&kscan_primary>;
         kscan1 = <&kscan_secondary>;
     };
+
     chosen {
-        zmk,kscan = &kscan_composite;
+        zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
         //zmk,physical-layout = &kata0510_zetor_layout;
     };
@@ -31,12 +41,12 @@
         >;
     };
 
-    kscan_primary: kscan_primary {
+    kscan1: kscan_matrix {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         diode-direction = "col2row";
     };
-    kscan_secondary: kscan_primary {
+    kscan2: kscan_direct {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         diode-direction = "col2row";

@@ -4,7 +4,7 @@
 
 
 
-&kscan_primary {
+&kscan1 {
     col-gpios
         = <&pro_micro 14 GPIO_ACTIVE_HIGH>
         , <&pro_micro 4 GPIO_ACTIVE_HIGH>
@@ -23,7 +23,7 @@
 };
 
 
-&kscan_secondary {
+&kscan2 {
     col-gpios
         = <&pro_micro 7 GPIO_ACTIVE_HIGH>
         , <&pro_micro 8 GPIO_ACTIVE_HIGH>
