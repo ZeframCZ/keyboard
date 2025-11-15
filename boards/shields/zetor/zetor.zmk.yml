@@ -1,14 +1,13 @@
 file_format: "1"
-id: lily58
-name: Lily58
+id: zetor
+name: zetor
 type: shield
-url: https://github.com/kata0510/Lily58
+url: https://github.com/ZeframCZ/zetor
 requires: [pro_micro]
 exposes: [i2c_oled]
 features:
   - keys
-  - display
   - studio
 siblings:
-  - lily58_left
-  - lily58_right
+  - zetor_left
+  - zetor_right
