@@ -43,8 +43,8 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3)                                                 
             <&pro_micro 19 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
             <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
             <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&pro_micro  7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
-            <&pro_micro  8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
+            <&pro_micro 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>,
+            <&pro_micro 8 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
 
     };
 
