@@ -52,18 +52,6 @@ RC(5,0) RC(5,1) RC(5,2) RC(5,3) RC(5,4) RC(5,5)                 RC(5,6) RC(5,7) 
 
     };
 
-    left_encoder: encoder_left {
-        compatible = "alps,ec11";
-        a-gpios = <&pro_micro 21 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <80>;
-    };
-
-    sensors: sensors {
-        compatible = "zmk,keymap-sensors";
-        sensors = <&left_encoder>;
-        triggers-per-rotation = <20>;
-    };
 };
 
 &kata0510_zetor_layout {
