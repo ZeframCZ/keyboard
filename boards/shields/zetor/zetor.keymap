@@ -12,10 +12,8 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-
         default_layer {
             display-name = "Default Layer";
-
             bindings = <
 &kp ESC                                                              &kp G &kp Q &kp W &kp R &kp T &kp V
 &studio_unlock &kp N1   &kp N2    &kp N3 &kp N4 &kp N5               &kp G &kp Q &kp W &kp R &kp T &kp V
@@ -23,11 +21,9 @@
 &kp CAPS       &kp A    &kp S     &kp D  &kp F  &kp G                &kp G &kp Q &kp W &kp R &kp T &kp V
 &kp LSHFT      &kp Z    &kp X     &kp C  &kp V  &kp B                &kp X &kp X &kp X &kp X &kp X
 &kp LCTRL      &kp LGUI &kp LALT  &kp SPACE                          &kp G &kp Q &kp W &kp R &kp T &kp V
-                        &kp SPACE &kp BSPC
+                            &kp BSPC
+                            &kp SPACE
             >;
-
         };
-
-        
     };
 };
