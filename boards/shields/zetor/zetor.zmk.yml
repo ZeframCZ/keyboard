@@ -1,0 +1,14 @@
+file_format: "1"
+id: zetor
+name: zetor
+type: shield
+url: https://github.com/ZeframCZ/zetor
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - zetor_left
+  - zetor_right
