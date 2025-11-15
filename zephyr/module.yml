@@ -1,4 +1,4 @@
-name: myshield
+name: zetor
 build:
   settings:
     board_root: .
