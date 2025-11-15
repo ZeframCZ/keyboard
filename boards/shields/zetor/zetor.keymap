@@ -27,7 +27,7 @@
 &kp TAB &kp Q &kp W &kp E &kp R &kp T                    &kp G &kp Q &kp W &kp R &kp T &kp V
 &kp CAPS &kp A &kp S &kp D &kp F &kp G                    &kp G &kp Q &kp W &kp R &kp T &kp V
 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B                    &kp X &kp X &kp X &kp X &kp X
-&kp LCTRL &kp LGUI &kp LALT &kp SPACE                             &kp G &kp Q &kp W &kp R &kp T &kp V
+&kp LCTRL &kp LGUI &kp LALT &kp SPACE &kp SPACE                             &kp G &kp Q &kp W &kp R &kp T &kp V
                         &kp SPACE &kp BSPC
             >;
 
