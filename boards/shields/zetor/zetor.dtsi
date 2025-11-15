@@ -27,12 +27,12 @@
         >;
     };
 
-    kscan_primary: kscan {
+    kscan_primary: kscan_primary {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         diode-direction = "col2row";
     };
-    kscan_secondary: kscan {
+    kscan_secondary: kscan_primary {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
         diode-direction = "col2row";
