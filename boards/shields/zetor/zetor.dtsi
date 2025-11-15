@@ -16,7 +16,7 @@
             row-offset = <7>; // ...and shift it to not overlap
         };
     };
-
+ 
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &default_transform;
