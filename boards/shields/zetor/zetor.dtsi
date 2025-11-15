@@ -6,7 +6,7 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include <layouts/kata0510/zetor.dtsi>
+#include "zetor_layouts.dtsi"
 
 / {
     chosen {
