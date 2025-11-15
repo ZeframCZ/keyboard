@@ -23,9 +23,9 @@
 // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
 //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
             bindings = <
-&kp A &kp B &kp C &kp D &kp E &kp F                    &kp G &kp Q &kp W &kp R &kp T &kp V
-&kp A &kp B &kp C &kp D &kp E &kp F                    &kp G &kp Q &kp W &kp R &kp T &kp V
-&kp A &kp B &kp C &kp D &kp E &kp F                    &kp G &kp Q &kp W &kp R &kp T &kp V
+&kp A &kp B &kp C &kp D &kp E &studio_unlock                    &kp G &kp Q &kp W &kp R &kp T &kp V
+&kp A &kp B &kp C &kp D &kp E &studio_unlock                    &kp G &kp Q &kp W &kp R &kp T &kp V
+&kp A &kp B &kp C &kp D &kp E &studio_unlock                    &kp G &kp Q &kp W &kp R &kp T &kp V
 &kp A &kp B &kp C &kp D &kp E &kp F &kp X  &kp X &kp X &kp X &kp X &kp X &kp X &kp X
                         &kp E &kp F &kp X  &kp X &kp X &kp X &kp X &kp X
             >;
