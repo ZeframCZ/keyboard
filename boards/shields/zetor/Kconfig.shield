@@ -1,8 +1,9 @@
-# Copyright (c) 2020 Pete Johanson
-# SPDX-License-Identifier: MIT
 
-config SHIELD_zetor_LEFT
+config SHIELD_ZETOR_LEFT
     def_bool $(shields_list_contains,zetor_left)
 
-config SHIELD_zetor_RIGHT
+config SHIELD_ZETOR_RIGHT
     def_bool $(shields_list_contains,zetor_right)
+
+config SHIELD_ZETOR_DONGLE
+    def_bool $(shields_list_contains,zetor_dongle)
