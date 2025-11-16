@@ -12,6 +12,15 @@ config ZMK_USB
 
 endif
 
+
+
+
+
+
+
+
+
+
 if SHIELD_ZETOR_LEFT || SHIELD_ZETOR_RIGHT || SHIELD_ZETOR_DONGLE
 
 config ZMK_SPLIT
