@@ -22,7 +22,7 @@
 &kp LSHFT      &kp Y    &kp X     &kp C  &kp V  &kp B       &kp N  &kp M  &kp K  &kp L  &kp P  &kp V
 &kp LCTRL      &kp LGUI &kp LALT  &kp SPACE                               &kp P &kp P &kp P &kp P
                                    &kp A &kp B              &kp C  &kp D
-                                   &kp SPACE &mt LCTR BSPC       &kp E &kp F
+                                   &kp SPACE &mt LCTRL BSPC       &kp E &kp F
             >;
         };
     };
