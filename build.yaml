@@ -1,7 +1,7 @@
 include:
   - board: nice_nano_v2
     shield: zetor_left
-  - board: adafruit_kb2040
+  - board: nice_nano_v2
     shield: zetor_dongle dongle_display
 
 
