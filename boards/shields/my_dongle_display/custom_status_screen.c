@@ -86,5 +86,5 @@ lv_obj_t *zmk_display_status_screen() {
     lv_obj_align(zmk_widget_dongle_battery_status_obj(&dongle_battery_status_widget), LV_ALIGN_TOP_RIGHT, 0, 0);
 #endif
 
-    return screen;t
+    return screen;
 }
