@@ -1,6 +1,0 @@
-
-config SHIELD_MYSHIELD_LEFT
-    def_bool $(shields_list_contains,myshield_left)
-
-config SHIELD_MYSHIELD_RIGHT
-    def_bool $(shields_list_contains,myshield_right)
