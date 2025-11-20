@@ -62,24 +62,18 @@
 
 &pro_micro_i2c {
     status = "okay";
-
     oled: sh1106@3c {
         compatible = "sinowealth,sh1106";
         reg = <0x3c>;
-
-        width = <128>;
-        height = <64>;
-
-        segment-offset = <2>;
+        width = <120>;
+        height = <128>;
+        segment-offset = <0>;
         page-offset = <0>;
         display-offset = <0>;
-
-        multiplex-ratio = <63>;
-
+        multiplex-ratio = <119>;
         segment-remap;
         com-invdir;
-        com-sequential;
         inversion-on;
-        prechargep = <0x1F>;
-    };
+        prechargep = <0x22>;
+        };
 };
