@@ -2,7 +2,7 @@ include:
   - board: nice_nano_v2
     shield: zetor_left
   - board: nice_nano_v2
-    shield: zetor_dongle my_dongle_display
+    shield: zetor_dongle dongle_display
 
 
     
