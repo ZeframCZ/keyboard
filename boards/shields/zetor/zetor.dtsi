@@ -79,8 +79,6 @@
         segment-remap;
         com-invdir;
 
-        inversion-off;
-
         prechargep = <0x1F>;
     };
 };
