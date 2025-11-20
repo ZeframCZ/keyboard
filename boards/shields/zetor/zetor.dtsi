@@ -77,10 +77,10 @@
         multiplex-ratio = <63>;
 
         segment-remap;
-        com-scan-dec;
+        com-invdir;
 
         inversion-off;
 
         prechargep = <0x1F>;
     };
-};
+};čed
